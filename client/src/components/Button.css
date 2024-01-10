@@ -1,0 +1,42 @@
+.disabled {
+  width: 7em;
+  border: 1px solid #caefd8;
+  color: #caefd8;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 0.5em 1.25em;
+  margin: 1em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: default;
+}
+.enabled {
+  width: 7em;
+  border: 1px solid #16a64d;
+  color: #16a64d;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 0.5em 1.25em;
+  margin: 1em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}
+.cancel {
+  width: 7em;
+  border: 1px solid #e2006a;
+  color: #e2006a;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 0.5em 1.25em;
+  margin: 1em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}

@@ -1,0 +1,19 @@
+#h4 {
+  margin-left: 1em;
+  font-weight: 500;
+  color: #a4b8d3;
+}
+h3 {
+  color: #4f6c92;
+  padding-left: 1em;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  border: 1px solid #cbd2e1;
+  background-color: white;
+}

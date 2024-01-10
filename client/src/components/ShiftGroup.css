@@ -1,0 +1,9 @@
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  border: 1px solid #cbd2e1;
+  margin: -1px 0px 0px -1px;
+  background-color: white;
+}
