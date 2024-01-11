@@ -39,6 +39,7 @@ const ShiftGroup = (props) => {
         props.shifts.map((s) => (
           <Shift
             shift={s}
+            myShifts={props.myShifts}
             myshift={props.myshift}
             cancel={props.cancel}
             book={props.book}
