@@ -64,12 +64,14 @@ const App = () => {
           Available shifts
         </button>
       </div>
+
       {showMyShifts && <MyShifts group={bookedGroup} cancel={onCancel} />}
       {!showMyShifts && (
         <AvailableShifts
           shifts={shifts}
           allShifts={allShifts}
           group={group}
+          myShifts={myShifts}
           cancel={onCancel}
           book={onBook}
           selectArea={onSelectArea}
