@@ -6,8 +6,8 @@ const ButtonBook = (props) => {
   const [loader, setLoader] = useState(props);
   return (
     <button
-      className={isDisabled ? "disabled" : "enabled"}
-      disabled={isDisabled}
+      className={isDisabled || props.overLapping ? "disabled" : "enabled"}
+      disabled={isDisabled || props.overLapping}
       onClick={() => {
         props.book(props.id);
         setLoader(null);
