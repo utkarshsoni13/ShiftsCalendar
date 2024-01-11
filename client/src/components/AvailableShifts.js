@@ -13,6 +13,7 @@ const AvailableShifts = (props) => {
         return (
           <ShiftGroup
             myshift={false}
+            myShifts={props.myShifts}
             shifts={props.group[key]}
             date={key}
             cancel={props.cancel}
